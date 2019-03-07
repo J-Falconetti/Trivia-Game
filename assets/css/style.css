@@ -1,1 +1,15 @@
 /* this is the CSS page */
+/* font-family: 'News Cycle', sans-serif; */
+.title {
+    margin-top: 40 px;
+    font-family: 'News Cycle', sans-serif;
+}
+.spacer75 { 
+    height: 75px;
+     width: 100%;
+    font-size: 0;
+     margin: 0;
+     padding: 0;
+     border: 0;
+     display: block;
+     }

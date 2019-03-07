@@ -2,13 +2,10 @@
 var GameQuest = [
     {
         quest: "What is the name of Han Solo's ship?",
-        ans: {
-            a: 'Millennium Eagle',
-            b: 'Millennium Falcon',
-            c: 'The Hunk of Junk'
-        },
-        conans: 'b'
+        ans: ['Millennium Eagle', 'Millennium Falcon','The Hunk of Junk']
+        corans: this.ans[1]
     },
+    // change all questions to look like above
     {
         quest: "What class of fighter did Luke Skywalker Fly",
         ans: {
@@ -16,7 +13,7 @@ var GameQuest = [
             b: 'A-Wing',
             c: 'X-Wing'
         },
-        conans: 'c'
+        corans: 'c'
     },
     {
         quest: "What is a Parsec",
@@ -25,7 +22,7 @@ var GameQuest = [
             b: 'A unit of distance',
             c: 'A made up phrase'
         },
-        conans: 'b'
+        corans: 'b'
     },
     {
         quest: "What is the name of the Star Wars Holliday Special?",
@@ -34,7 +31,7 @@ var GameQuest = [
             b: 'Star Wars Holliday Special',
             c: 'Yoda is Comming to Town'
         },
-        conans: 'b'
+        corans: 'b'
     },
     {
         quest: "What is Ben (Obi-Wan) Kenobi's rank durring the Clone Wars",
@@ -43,7 +40,7 @@ var GameQuest = [
             b: 'Privet First Class',
             c: 'Jedi Knight'
         },
-        conans: 'a'
+        corans: 'a'
     },
     {
         quest: "What was Luke's home planet",
@@ -52,7 +49,7 @@ var GameQuest = [
             b: 'Dagobah',
             c: 'Tatooine'
         },
-        conans: 'c'
+        corans: 'c'
     },
     {
         quest: "Who/What is Yoda",
@@ -61,7 +58,35 @@ var GameQuest = [
             b: 'Sith',
             c: 'Something you add Strawberries to for breakfast'
         },
-        conans: 'a'
+        corans: 'a'
     },
+    {
+        quest: "What were Han's odd for navigating the astroid field",
+        ans: {
+            a: '7284 : 1',
+            b: '10,000 : 1',
+            c: '3720 : 1'
+        },
+        corans: 'c'
+    },
+    {
+        quest: "What did Luke's uncle do on Tatooine",
+        ans: {
+            a: 'Moisture Farmer',
+            b: 'Droid repair',
+            c: 'Blue Mile farmer'
+        },
+        corans: 'a'
+    },
+    {
+        quest: "When is Star Wars Day",
+        ans: {
+            a: '18th of June',
+            b: '25th of December',
+            c: '4th of May'
+        },
+        corans: 'C'
+    },
+    
 ];
 // stat functions
