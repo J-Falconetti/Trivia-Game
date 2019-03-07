@@ -6,9 +6,17 @@ body {
     background-repeat: no-repeat;
     background-size: auto;
     color:yellow;
-.title {
-    margin-top: 40 px;
+}
+.box{
     font-family: 'News Cycle', sans-serif;
+    
+}
+
+.ans{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 25px;
+    color: greenyellow
+
 }
 .spacer75 { 
     height: 75px;
