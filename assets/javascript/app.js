@@ -45,8 +45,8 @@ function check () {
             if(quest10 === "true"){        
                 questright++
             }
-                console.log(questright)
-    
+                questworng = 10 - questright
+                alert("You got " + questright +" right and " + questworng + " wrong")
             }
 
 
