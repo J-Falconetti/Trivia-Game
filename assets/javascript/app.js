@@ -16,12 +16,22 @@ function check () {
                 if(quest3 === "true"){        
                     questright++
                 }
-                
+                var quest4 = $("input[name='quest4']:checked").val();
+                if(quest4 === "true"){        
+                    questright++
+                }
+                var quest5 = $("input[name='quest5']:checked").val();
+                if(quest5 === "true"){        
+                    questright++
+                }
+                var quest6 = $("input[name='quest6']:checked").val();
+                if(quest6 === "true"){        
+                    questright++
                     console.log(questright)
                 }
             
     
-
+            }
 
 
 $("#answers").on("click",check)
