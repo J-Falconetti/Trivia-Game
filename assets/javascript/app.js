@@ -55,18 +55,5 @@ $("#answers").on("click",check)
 $("#start").on("click",function(event) {
     event.preventDefault ();
 console.log("hello");
-    setTimeout(check, 1000 * 60);
+    setTimeout(check, 1000 * 45);
 })
-// setInterval look 
-
-// $("input[type='radio']").on('change', function(value) {
-//     var quest1 = $("input[name='quest1']:checked").val();
-//     console.log(quest1);
-//     if (value === true) {
-//         console.log("true");
-//         $("#correct").html("<h1>" + questright + "</h1>");
-//         questright++;
-// /}
-// }
-// )
-// }
