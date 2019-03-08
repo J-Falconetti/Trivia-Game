@@ -27,9 +27,25 @@ function check () {
                 var quest6 = $("input[name='quest6']:checked").val();
                 if(quest6 === "true"){        
                     questright++
-                    console.log(questright)
+                    
                 }
-            
+                var quest7 = $("input[name='quest7']:checked").val();
+                if(quest7 === "true"){        
+                    questright++
+                }
+                var quest8 = $("input[name='quest8']:checked").val();
+                if(quest8 === "true"){        
+                    questright++
+                }
+                var quest9 = $("input[name='quest9']:checked").val();
+            if(quest9 === "true"){        
+                questright++
+            }
+            var quest10 = $("input[name='quest10']:checked").val();
+            if(quest10 === "true"){        
+                questright++
+            }
+                console.log(questright)
     
             }
 
